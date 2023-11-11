@@ -17,6 +17,7 @@ import {
   react,
   redux,
   sass,
+  summiz,
   tailwindcss,
   threejs,
   typescript,
@@ -162,5 +163,62 @@ export const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+];
+
+export const projects = [
+  {
+    iconUrl: "",
+    theme: "btn-back-red",
+    name: "Ai Summarizer",
+    description:
+      "This is a webpage summarizer app that uses OpenAI's GPT to extract and summarize news or article content from a given URL.",
+    git: "https://github.com/avengeance/aiSu",
+    link: "https://ai-summarizer-jnku.onrender.com/",
+  },
+  {
+    iconUrl: "",
+    theme: "btn-back-green",
+    name: "DALL-E Clone",
+    description:
+      "A clone of the popular web based application created by OpenAI. Where users can use a prompt generator and create images to the limits of their imagination.",
+    git: "https://github.com/avengeance/Dalle-e-Clone",
+    link: "https://dalle-e-hvpi.onrender.com/",
+  },
+  {
+    iconUrl: "",
+    theme: "btn-back-blue",
+    name: "ThreeJS AI Shirt Customizer",
+    description:
+      "A web based appliaction where a user can upload or use an AI prompt to customize a shirt.",
+    git: "https://github.com/avengeance/threejs",
+    link: "https://threejs-ai-27n4.onrender.com/",
+  },
+  {
+    iconUrl: "",
+    theme: "btn-back-pink",
+    name: "Whatcha' Makin",
+    description:
+      "Web-based platform that allows users to search, create, and manage recipes from various providers, providing a convenient and efficient solution for cooking needs.",
+    git: "https://github.com/avengeance/whatcha_makin",
+    link: "https://whatchamakin.onrender.com/",
+  },
+  {
+    iconUrl: "",
+    theme: "btn-back-black",
+    name: "SoundCloud clone",
+    description:
+      "Web application that enables users to upload and listen to songs that other users have created. Users can create playlists of their favorite songs.",
+    git: "https://github.com/avengeance/soundcloudClone",
+    link: "https://soundcloudclone.onrender.com/",
+  },
+  {
+    iconUrl: "",
+    theme: "btn-back-yellow",
+    name: "Airbnb Clone",
+    description:
+      "A web based application where users can upload and book rental properties. Users can also like and review rental properties they've been before.",
+    git: "https://github.com/avengeance/AirBnB-Clone",
+    link: "https://airbnb-clone-p0y8.onrender.com/",
   },
 ];

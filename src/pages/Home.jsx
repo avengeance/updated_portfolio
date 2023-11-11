@@ -31,7 +31,7 @@ const Home = () => {
       screenScale = [3, 3, 3];
       screenPosition = [0, -4, -4];
     }
-    return [screenScale, screenPosition, rotation];
+    return [screenScale, screenPosition];
   };
   const [islandScale, islandPosition, islandRotation] =
     adjustIslandForScreenSize();
@@ -68,8 +68,8 @@ const Home = () => {
           />
           <Plane
             isRotating={isRotating}
-            planeScale={planeScale}
-            planePosition={planePosition}
+            scale={planeScale}
+            position={planePosition}
             rotation={[0, 20, 0]}
           />
         </Suspense>
