@@ -1,5 +1,6 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+  contact,
   css,
   docker,
   express,
@@ -7,6 +8,7 @@ import {
   github,
   html,
   javascript,
+  linkedin,
   mongodb,
   motion,
   mui,
@@ -220,5 +222,23 @@ export const projects = [
       "A web based application where users can upload and book rental properties. Users can also like and review rental properties they've been before.",
     git: "https://github.com/avengeance/AirBnB-Clone",
     link: "https://airbnb-clone-p0y8.onrender.com/",
+  },
+];
+
+export const socialLinks = [
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/avengeance",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: "https://www.linkedin.com/in/calvin-le-442162140/",
   },
 ];
